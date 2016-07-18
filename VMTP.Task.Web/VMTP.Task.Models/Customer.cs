@@ -4,8 +4,6 @@ namespace VMTP.Task.Models
 	{
 		public string Name { get; set; }
 
-		public decimal Decimal { get; set; }
-
-
+		public decimal Debt { get; set; }
 	}
 }

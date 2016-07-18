@@ -40,6 +40,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Customer.cs" />
+    <Compile Include="CustomerOperation.cs" />
+    <Compile Include="CustomerOperationStatus.cs" />
     <Compile Include="EntityBase.cs" />
     <Compile Include="IIdentity.cs" />
     <Compile Include="Operation.cs" />
