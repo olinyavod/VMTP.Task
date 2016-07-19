@@ -11,10 +11,10 @@ namespace VMTP.Task.Data
 
 			HasKey(m => m.Id);
 
-			HasMany(m => m.Operations)
+			/*HasMany(m => m.Operations)
 				.WithRequired(m => m.Customer)
 				.HasForeignKey(m => m.CustomerId)
-				.WillCascadeOnDelete();
+				.WillCascadeOnDelete();*/
 		}
 	}
 }

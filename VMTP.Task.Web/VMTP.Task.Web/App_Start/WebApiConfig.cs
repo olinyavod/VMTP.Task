@@ -25,8 +25,7 @@ namespace VMTP.Task.Web
 
 			ODataModelBuilder builder = new ODataConventionModelBuilder();
 			builder.EntitySet<Operation>("Operations");
-			/*builder.EntitySet<UserDto>("Users");
-			builder.EntitySet<UserGroupDto>("UserGroups");*/
+	        builder.EntitySet<Customer>("Customers");
 
 			config.EnableEnumPrefixFree(true);
 

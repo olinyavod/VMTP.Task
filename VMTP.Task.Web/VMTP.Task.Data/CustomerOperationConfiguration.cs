@@ -18,7 +18,7 @@ namespace VMTP.Task.Data
 				.HasDatabaseGeneratedOption(DatabaseGeneratedOption.None);
 
 			HasRequired(m => m.Customer)
-				.WithMany(m => m.Operations)
+				.WithMany()
 				.HasForeignKey(m => m.CustomerId)
 				.WillCascadeOnDelete();
 

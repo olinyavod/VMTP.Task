@@ -10,6 +10,6 @@ namespace VMTP.Task.Models
 
 		public decimal Debt { get; set; }
 
-		public ICollection<CustomerOperation> Operations { get; set; }
+		//public virtual ICollection<CustomerOperation> Operations { get; set; }
 	}
 }
